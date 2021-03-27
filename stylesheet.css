@@ -1,0 +1,111 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.lesson-wrapper {
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: justify;
+  color: #b3aeb5;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+.heading p {
+  font-weight: normal;
+  font-size: 15px;
+  color: #b3aeb5;
+  
+}
+.lesson {
+  float: left;
+  width: 25%;
+  padding: 0 20px;
+}
+
+.lesson-icon {
+  position: relative;
+  margin-left: 20px;
+}
+
+
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+  
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+
+/* Untuk Tablets */
+@media (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+	padding: 0 10px;
+  }
+  .lesson-icon {
+  position: relative;
+
+  }
+}
+
+/* Untuk Smartphones */
+
+/* Tambahkan breakpoint max-width: 670px */
+@media (max-width: 670px) {
+  .lesson {
+    width: 100%;
+	padding: 0 10px;
+  }
+   
+  .lesson-icon {
+  position: relative;
+  }
+}
